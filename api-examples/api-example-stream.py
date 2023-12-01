@@ -8,7 +8,6 @@ except ImportError:
     print("Websockets package not found. Make sure it's installed.")
 
 # For local streaming, the websockets are hosted without ssl - ws://
-HOST = 'localhost:5005'
 URI = f'ws://https://requirements-halo-peterson-watt.trycloudflare.com/api/v1/stream'
 
 # For reverse-proxied streaming, the remote will likely host with ssl - wss://
