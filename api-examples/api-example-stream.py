@@ -9,7 +9,7 @@ except ImportError:
 
 # For local streaming, the websockets are hosted without ssl - ws://
 HOST = 'localhost:5005'
-URI = f'ws://{HOST}/api/v1/stream'
+URI = f'ws://https://github.com/camenduru/text-generation-webui/blob/c16ed97129fe8dc9c673e471f743b37cf45efe7f/api-examples/api-example-chat-stream.py/api/v1/stream'
 
 # For reverse-proxied streaming, the remote will likely host with ssl - wss://
 # URI = 'wss://your-uri-here.trycloudflare.com/api/v1/stream'
